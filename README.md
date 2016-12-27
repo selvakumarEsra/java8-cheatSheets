@@ -1,4 +1,4 @@
-# java8-cheatSheets
+# java8-cheat Sheet
 
 ## Lambda Expression
 ```java
@@ -35,7 +35,7 @@ d.getDoubleOf(4); // is 8
 All examples with "list" use :
 
 ```java
-List<String> list = [Bohr, Darwin, Galilei, Tesla, Einstein, Newton]
+List<String> list = [Bohr, Sadhguru, Sidhar, Shiva, Cobra, Yoga]
 ```
 
 
@@ -47,14 +47,14 @@ List<String> list = [Bohr, Darwin, Galilei, Tesla, Einstein, Newton]
 list.sort((a, b) -> a.length() - b.length())
 list.sort(Comparator.comparing(n -> n.length())); // same
 list.sort(Comparator.comparing(String::length)); // same
-//> [Bohr, Tesla, Darwin, Newton, Galilei, Einstein]
+//> [Bohr, Sadhguru, Sidhar, Shiva, Cobra, Yoga]
 ```
 
 **removeIf**
 
 ```java
 list.removeIf(w -> w.length() < 6);
-//> [Darwin, Galilei, Einstein, Newton]
+//> [Sadhguru, Sidhar]
 ```
 
 **merge**
